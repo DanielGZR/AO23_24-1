@@ -28,6 +28,7 @@ namespace RepasoBucles
                 i=i+1;
             }
             Console.WriteLine();
+            Console.ReadLine();
 
             //2. Contar todos los números multiplos de 3 y 4 en el intervalo anterior
             int contador = 0;
@@ -39,6 +40,7 @@ namespace RepasoBucles
                 }
             }
             Console.WriteLine("Hay " + contador + " múltiplos de 3 y 4");
+            Console.ReadLine() ;
 
             //3. Programa que suma los cuadrados de los números impares que hay entre n y m
             n = 1;
@@ -51,6 +53,8 @@ namespace RepasoBucles
                     suma = suma + i * i;
                 }
             }
+            Console.WriteLine(suma);
+            Console.ReadLine();
 
             //4. Mostrar por pantalla los 10 primeros números impares entre n y m
             //5. Calcular la suma de los 10 últimos números del intervalo n y m.
